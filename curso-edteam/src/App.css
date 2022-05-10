@@ -1,0 +1,21 @@
+
+/* CSS de la magdalena */
+.magda{
+    width: 300px;
+    z-index: 10;
+    background-color: rgb(245, 129, 222);
+}
+.magdaClass{
+    width: 300px;
+    z-index: 10;
+    background-color: rgb(129, 139, 245);
+
+}
+
+.container-magdalenas{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
